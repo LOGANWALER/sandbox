@@ -1,11 +1,11 @@
 name: Download to Artifact (No Split)
-on:
-  push:
-    branches:
-      - "**"
-jobs:
-  download-and-pack:
-    runs-on: ubuntu-latest
+# on:
+#  push:
+#    branches:
+#      - "**"
+# jobs:
+#  download-and-pack:
+#    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
